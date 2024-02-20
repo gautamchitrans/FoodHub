@@ -1,0 +1,37 @@
+.container{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.btn{
+   
+    width:70px;
+    
+    margin:auto;
+}
+.container > .emptyCart > p{
+    margin-bottom: 10px;
+}
+.btn button{
+   padding:7px;
+   background-color:rgb(40,116,240);
+   color:white;
+   border:none;
+   border-radius: 5px;
+}
+.btn button:hover{
+    cursor: pointer;
+    
+}
+
+
+
+.first{
+    font-size: 18px;
+}
+.second{
+    font-size: 12px;
+    padding-left:10px;
+}

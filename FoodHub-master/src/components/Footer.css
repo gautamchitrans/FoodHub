@@ -1,0 +1,41 @@
+.social-media{
+    display:flex;
+    justify-content:center;
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color:#d97919;
+    color:white;
+}
+.fa-square-github,.fa-linkedin{
+    margin-right:25px;
+    
+}
+i{
+    font-size: 25px;
+}
+#copyright{
+    text-align:center;
+}
+.footer-bottom{
+    background-color:#ffaf60;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.Footer{
+    position:sticky;
+    bottom: 0px;
+}
+.fa-brands:hover{
+    cursor: pointer;
+}
+
+.year{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-copyright{
+    font-size: 15px;
+    color:black;
+}

@@ -1,0 +1,42 @@
+
+  .about-container {
+    margin: 90px auto 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }
+  .about-container .about-left {
+    padding-left: 10px;
+    overflow-y: hidden;
+  }
+  .about-container .about-left h1 {
+    font-size: 70px;
+    color: var(--light-text-color);
+  }
+  .about-container .about-left h1 span {
+    background-color: var(--orange);
+    padding: 0 10px;
+    border-radius: 15px;
+    color: var(--light-white-text);
+  }
+  .about-container .about-left h4 {
+    font-size: 25px;
+    padding-top: 10px;
+    font-style: italic;
+    color: var(--light-text-color);
+  }
+  .about-container .about-left h4 span {
+    color: var(--dark-orange);
+  }
+  .about-container .about-right {
+    padding-left: 20px;
+    overflow-y: hidden;
+  }
+  .about-container .about-right img {
+    width: 500px;
+    padding-right: 70px;
+  }

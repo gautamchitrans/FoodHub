@@ -1,0 +1,12 @@
+*{
+    padding:0px;
+    box-sizing: border-box;
+    margin:0px;
+    font-family: "PT Sans", Calibri, sans-serif;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

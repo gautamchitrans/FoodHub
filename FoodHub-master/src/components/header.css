@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: -2px 7px 5px -6px rgba(0,0,0,0.61);
+    color:  #545454 ; 
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    overflow-y: hidden;
+  }
+
+  .logo {
+    padding: 10px 0 10px 15px;
+    width: 100px;
+  }
+
+  .nav-items > ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-items > ul > li {
+    padding: 10px;
+  }
+
+  .nav-items > ul > li .fa-solid{
+    padding-top: 15%;
+  }
+  
+  .nav-items > ul > li:hover,
+  .nav-items > ul > li:hover .logout-btn,
+  .nav-items > ul > li:hover .login-btn {
+    background-color:#d97919; 
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--white);
+  }
+  
+  .nav-items > ul > li .logout-btn,
+  .nav-items > ul > li .login-btn {
+    color: #545454;
+    border: none;
+    border-radius: 5px;
+    background-color: Transparent;
+    font-size: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .nav-items > ul > li .logout-btn:hover,
+  .nav-items > ul > li .login-btn:hover{
+    color:#fff;
+  }
