@@ -24,7 +24,7 @@ Installation
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/foodhub.git
+git clone https://github.com/gautamchitrans/foodhub.git
 Navigate to the project directory:
 bash
 Copy code
